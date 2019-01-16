@@ -9,29 +9,52 @@
 </head>
 <body>
   <section class="container">
-    <div class="all">
+    <div class="stack">
       <h1>Stack</h1>
       <form>
         <div class="form-group">
           <!-- <label for="exampleInputEmail1">Email address</label> -->
-          <input type="number" class="add-to form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Add the element to the stack">
+          <input type="text" class="add-to form-control" id="add-stack"  placeholder="Add the element to the stack">
           <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
         </div>
       </form>
       <div>
-        <button type="button" class="btn btn-primary">Add</button>
+        <button type="button" class="btn-add btn btn-primary">Add</button>
         <button type="button" class="btn btn-danger">Take</button>
       </div>
       <div>
         <ul class="list-group">
-          <li class="list-group-item">item</li>
-          <li class="list-group-item">item</li>
-          <li class="list-group-item">item</li>
-          <li class="list-group-item">item</li>
-          <li class="list-group-item active">item</li>
+          <li class="list-group-item list-5">item</li>
+          <li class="list-group-item list-4">item</li>
+          <li class="list-group-item list-3">item</li>
+          <li class="list-group-item list-2">item</li>
+          <li class="list-group-item list-1 active">item</li>
         </ul>
       </div>
-    </div> 
+    </div>
+    <div class="queue">
+        <h1>Queue</h1>
+        <form>
+          <div class="form-group">
+            <!-- <label for="exampleInputEmail1">Email address</label> -->
+            <input type="text" class="add-queue form-control" id="add-f"  placeholder="Add the element to the queue">
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+          </div>
+        </form>
+        <div>
+          <button type="button" class="btn-add btn btn-primary">Add</button>
+          <button type="button" class="btn btn-danger">Take</button>
+        </div>
+        <div>
+          <ul class="list-group">
+            <li class="list-group-item list-5">item</li>
+            <li class="list-group-item list-4">item</li>
+            <li class="list-group-item list-3">item</li>
+            <li class="list-group-item list-2">item</li>
+            <li class="list-group-item list-1 active">item</li>
+          </ul>
+        </div>
+      </div> 
   </section>
 
   <script src="src/StackDataStructure.js"></script>
