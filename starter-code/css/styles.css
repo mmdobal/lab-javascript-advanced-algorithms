@@ -1,0 +1,16 @@
+.all {
+    width: 60%;
+}
+
+button {
+    width: 100%;
+    margin: 2% 0;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    align-content: center;
+}
